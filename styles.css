@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 188, 207);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(136, 118, 88);
+}
+
+.all-recipes {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe {
+    background-image: url("./images/pawie.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    list-style-type: none;
+    padding: 35px 20px;
+    margin: 20px;
+    height: 140px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.recipe a {
+    color: rgb(253, 234, 243);
+    border: 2px solid rgba(248, 118, 179, 0.562);
+    background-color: rgb(136, 118, 88);
+    background-color: pink;
+    background-color: rgb(252, 154, 171);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 180px;
+}
+
+.recipe a:hover {
+    font-size: 20px;
+}
+
+.recipe p {
+    background-color: rgba(255, 192, 203, 0.925);
+    border: 2px solid rgba(248, 118, 179, 0.274);
+    color: rgb(136, 118, 88);
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+footer {
+    padding: 15px;
+    color: rgb(253, 214, 220);
+    background-color: rgb(252, 154, 171);
+}
+
