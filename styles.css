@@ -6,6 +6,7 @@ body {
 
 h1 {
     color: rgb(136, 118, 88);
+    font-family: 'Kalam', cursive;
 }
 
 .all-recipes {
@@ -58,3 +59,48 @@ footer {
     background-color: rgb(252, 154, 171);
 }
 
+.recipe-page {
+    color: rgb(254, 246, 247);
+    background-color: rgb(255, 179, 192);
+    font-family: 'Kalam', cursive;
+    font-size: 1.4rem;
+}
+
+.text-section {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.bullet {
+    margin-left: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(254, 164, 179);
+    color: rgb(255, 240, 242);
+    padding: 4px 15px;
+    margin: 10px;
+    padding-bottom: 0px;
+    border-radius: 13px;
+}
+
+.button:hover {
+    background-color: rgb(255, 139, 159);
+}
+
+.page-footer {
+    margin-top: 40px;
+}
+
+.recipe-body {
+    background-color: rgb(254, 179, 191);
+}
+
+.recipe-body li {
+    margin-bottom: 10px;
+}
+
+.dark-pink {
+    color: rgb(151, 137, 113);
+}
